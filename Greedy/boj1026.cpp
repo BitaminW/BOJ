@@ -5,6 +5,9 @@ using namespace std;
 int n, result;
 int a[51], b[51];
 
+// b 의 제일 큰 수를  a의 가장 작은수로 곱한다.
+// b 배열은 재배열하면 안 된다지만 결과값만 내는 것이기 때문에 상관없음
+
 int main() {
 	ios::sync_with_stdio(0);
 	cin.tie(0);
