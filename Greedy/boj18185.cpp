@@ -5,6 +5,22 @@ using namespace std;
 int a[10004];
 int n;
 
+/*
+    반례
+    wrong
+    1 2 1 1
+    0 1 0 1     => 7
+    0 0 0 1     => 10
+    0 0 0 0     => 13
+
+    correct
+    1 2 1 1
+    0 1 1 1     => 5
+    0 0 0 0     => 12
+*/
+
+
+
 int main(){
     ios::sync_with_stdio(0);
     cin.tie(0);
