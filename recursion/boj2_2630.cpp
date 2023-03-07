@@ -20,6 +20,7 @@ void func(int n, int x, int y) {
     }
     for (int i = 0; i < 2; i++)
         for (int j = 0; j < 2; j++) 
+            // 반으로 나누고 나눠진 지점부터 같은 색인지 확인
             func(n / 2, x + i * n / 2, y + j * n / 2);
 }
 
