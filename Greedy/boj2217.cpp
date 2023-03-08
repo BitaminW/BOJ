@@ -25,7 +25,6 @@ int main(void) {
         // 현재 들 수 있는 최대 무게가 기존 최대 무게보다 크다면 교체
         if (cur > max_) {
             max_ = cur;
-            continue;
         }
     }
     cout << max_;
